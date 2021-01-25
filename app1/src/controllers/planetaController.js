@@ -60,7 +60,7 @@ exports.new =  (req, res) => {
 
     if (nomeplaneta) {
 
-        swapi('https://swapi.co/api/planets/?search=' + nomeplaneta).then( (result) => {
+        swapi('https://swapi.dev/api/planets/?search=' + nomeplaneta).then( (result) => {
             if (result !== undefined) {
                 req.body['quantidade_de_aparicoes'] = result['films'].length;
             }
