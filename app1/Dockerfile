@@ -1,5 +1,5 @@
-
-
+#################################################################################
+#                                                                               #
 #   Documentação Dockerfile: https://docs.docker.com/engine/reference/builder/  #
 
 #   The FROM instruction initializes a new build stage and sets the Base Image  #
@@ -32,4 +32,5 @@ EXPOSE 3000
 #   when running a container.                                                   #
 #   ENTRYPOINT should be defined when using the container as an executable.     #
 CMD ["nodemon", "src/index.js"]
-
+#                                                                               #
+#################################################################################
