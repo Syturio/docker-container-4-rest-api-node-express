@@ -6,9 +6,8 @@
 #   for subsequent instructions.                                                #
 FROM node:alpine
 
-#   The WORKDIR instruction sets the working directory for                      #
-#   any RUN, CMD, ENTRYPOINT, COPY and ADD instructions                         #
-#   that follow it in the Dockerfile.                                           #
+#   The WORKDIR instruction sets the working directory for any RUN, CMD,        #
+#   ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile.     #
 WORKDIR /yolo
 
 #   The COPY instruction copies new files or directories from <src>             #
@@ -29,8 +28,8 @@ RUN npm install -g nodemon
 #   on the specified network ports at runtime.                                  #
 EXPOSE 3000
 
-#   Both CMD and ENTRYPOINT instructions define what command                    #
-#   gets executed when running a container.                                     #
+#   Both CMD and ENTRYPOINT instructions define what command gets executed      #
+#   when running a container.                                                   #
 #   ENTRYPOINT should be defined when using the container as an executable.     #
 CMD ["nodemon", "src/index.js"]
 
