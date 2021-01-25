@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Conecta ao banco
-mongoose.connect('mongodb://localhost/b2wbruno');
+mongoose.connect('mongodb://mongo:27017/b2wbruno');
 var db = mongoose.connection;
 
 
