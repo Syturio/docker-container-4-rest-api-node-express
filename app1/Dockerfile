@@ -1,5 +1,6 @@
 #################################################################################
 #                                                                               #
+
 #   Documentação Dockerfile: https://docs.docker.com/engine/reference/builder/  #
 
 #   The FROM instruction initializes a new build stage and sets the Base Image  #
