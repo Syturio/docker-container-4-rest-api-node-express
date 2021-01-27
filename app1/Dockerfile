@@ -3,8 +3,8 @@
 
 #   Documentação Dockerfile: https://docs.docker.com/engine/reference/builder/  #
 
-#   The FROM instruction initializes a new build stage and sets the Base Image  #
-#   for subsequent instructions.                                                #
+#   The FROM instruction initializes a new build stage and sets the Base        #
+#   Image for subsequent instructions.                                          #
 FROM node:alpine
 
 #   The WORKDIR instruction sets the working directory for any RUN, CMD,        #
